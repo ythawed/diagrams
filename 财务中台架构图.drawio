@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T08:38:37.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="4tV9EJeNeMfBMiIiMWr8" version="14.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-16T08:39:26.217Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="ICM8CM6ImAiobI0OvaBb" version="14.3.2" type="github">
   <diagram id="EE_hZTiAwyeK2e7w2kGB" name="Page-1">
-    <mxGraphModel dx="939" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1365" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,7 +142,7 @@
         <mxCell id="VR6JVq2bD84jiu32urEA-47" value="组合支付" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="494" y="295" width="66" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VR6JVq2bD84jiu32urEA-51" value="&lt;font style=&quot;font-size: 12px&quot;&gt;开放网关&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="VR6JVq2bD84jiu32urEA-51" value="&lt;font style=&quot;font-size: 12px&quot;&gt;中间件&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="615" y="70" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VR6JVq2bD84jiu32urEA-53" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
