@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T13:58:44.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="OxLMeXYocvoOVyNZeRjT" version="14.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-16T14:15:08.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="6tIrM9p-e_jcnzw9j06g" version="14.3.2" type="github">
   <diagram id="EE_hZTiAwyeK2e7w2kGB" name="Page-1">
-    <mxGraphModel dx="1179" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1638" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -355,7 +355,7 @@
         <mxCell id="ng2NUbiOrf7a3vOd3OaE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ng2NUbiOrf7a3vOd3OaE-2" target="ng2NUbiOrf7a3vOd3OaE-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ng2NUbiOrf7a3vOd3OaE-2" value="API" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ng2NUbiOrf7a3vOd3OaE-2" value="开放API" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="100" y="1239" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ng2NUbiOrf7a3vOd3OaE-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ng2NUbiOrf7a3vOd3OaE-3" target="ng2NUbiOrf7a3vOd3OaE-4">
@@ -495,6 +495,9 @@
             <mxPoint x="431" y="1100" as="sourcePoint" />
             <mxPoint x="561" y="1100.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ng2NUbiOrf7a3vOd3OaE-50" value="&lt;font style=&quot;font-size: 14px&quot;&gt;1、外部平台通过开放 API 或者收银台调用网关，做完解密、鉴权，请求到支付中心；&lt;br&gt;2、支付中心根据支付工具调用金融交换，组装资金单据；&lt;br&gt;3、金融交换中心调用网关，通过路由到相应的渠道接口，进行资金划拨；&lt;br&gt;4、核心支付接受到金融交换中心的响应结果，进行判断，若返回成功，进行报账、清分，否则修改状态返回失败；&lt;br&gt;5、如果是异步请求，则通知系统MQ广播交易状态；&lt;br&gt;6、如果交易出现异常，补单系统进行补单操作，成功后写入MQ，通知系统进行广播交易状态。&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1610" width="720" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
