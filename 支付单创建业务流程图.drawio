@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T08:28:44.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="1CNmZg-kIdnvDk39-NfS" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-22T08:46:13.763Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="nkj4F6JoiA1G52YvbkpT" version="14.4.2" type="github">
   <diagram id="doO7QD25XSTSyCwF2JsC" name="Page-1">
     <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
         <mxCell id="Pw1JwfpGeaFqBJXXxSC6-20" value="4. 不存在或者存在（非成功SUCCESS/已受理ACCEPTED）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="244" y="320" width="340" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-23" value="插入此单，并初始化 INIT" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="1">
+        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-23" value="插入此单，并初始化 INIT=0" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="240" y="390" as="sourcePoint" />
             <mxPoint x="760" y="390" as="targetPoint" />
