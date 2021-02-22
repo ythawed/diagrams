@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T08:28:30.485Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="prsUHsKaHdDWgOqcm_uv" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-22T08:28:44.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="1CNmZg-kIdnvDk39-NfS" version="14.4.2" type="github">
   <diagram id="doO7QD25XSTSyCwF2JsC" name="Page-1">
     <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,7 +114,7 @@
         <mxCell id="Pw1JwfpGeaFqBJXXxSC6-37" value="成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="250.5" y="585" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-40" value="修改此单状态为已受理 ACCRPTED" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="1">
+        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-40" value="修改此单状态为已受理 ACCEPTED" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="240" y="640" as="sourcePoint" />
             <mxPoint x="760" y="640" as="targetPoint" />
