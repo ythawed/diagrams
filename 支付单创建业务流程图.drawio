@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T10:03:48.722Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="G9hDkC8qDb85esqdgPvu" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-23T10:05:59.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="BiBwE4plng1DOvMlPdya" version="14.4.2" type="github">
   <diagram id="doO7QD25XSTSyCwF2JsC" name="Page-1">
     <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -458,10 +458,10 @@
             <mxPoint x="649" y="3360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-190" value="4. 不存在或者存在（非成功SUCCESS/已受理ACCEPTED）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="243" y="3340" width="340" height="20" as="geometry" />
+        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-190" value="4. 支付单存在、退款单不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="328" y="3340" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-191" value="插入此单，并初始化 INIT=0" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="1">
+        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-191" value="插入此退款单，并初始化 INIT=0" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="239" y="3410" as="sourcePoint" />
             <mxPoint x="759" y="3410" as="targetPoint" />
@@ -470,7 +470,7 @@
         <mxCell id="Pw1JwfpGeaFqBJXXxSC6-192" value="5" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="Pw1JwfpGeaFqBJXXxSC6-191">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-193" value="查看数据库，有无此单" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="1">
+        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-193" value="查看数据库，有支付单和退款单" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="239" y="3300" as="sourcePoint" />
             <mxPoint x="759" y="3300" as="targetPoint" />
@@ -488,7 +488,7 @@
         <mxCell id="Pw1JwfpGeaFqBJXXxSC6-196" value="6" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="Pw1JwfpGeaFqBJXXxSC6-195">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-197" value="调用第三方" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="1">
+        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-197" value="调用第三方退款" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="413" y="3510" as="sourcePoint" />
             <mxPoint x="599" y="3510" as="targetPoint" />
@@ -525,7 +525,7 @@
         <mxCell id="Pw1JwfpGeaFqBJXXxSC6-204" value="成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="249.5" y="3605" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-205" value="修改此单状态为已受理 ACCEPTED" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="1">
+        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-205" value="修改此单状态为受理中 ACCEPTED" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="239" y="3660" as="sourcePoint" />
             <mxPoint x="759" y="3660" as="targetPoint" />
@@ -546,8 +546,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-209" value="预下单成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="79" y="3710" width="80" height="20" as="geometry" />
+        <mxCell id="Pw1JwfpGeaFqBJXXxSC6-209" value="退款成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="89" y="3710" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
