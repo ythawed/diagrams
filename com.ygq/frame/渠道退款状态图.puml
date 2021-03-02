@@ -1,0 +1,19 @@
+@startuml
+
+start
+    -> 支付发起退款请求;
+    if(存在相同退款单) then (Y)
+    else (N)
+        if(存在对应的支付单)  then(N)
+        else (Y)
+            : 创建并初始化退款单INIT;
+            -> 调用第三方机构 ;
+                if(返回成功) then (Y)
+                    :修改退款单状态为已受理 PROCESSBANK;
+                else (N)
+                endif
+        endif
+    endif
+stop
+
+@enduml

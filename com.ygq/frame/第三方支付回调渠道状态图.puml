@@ -1,0 +1,35 @@
+@startuml
+
+'支付宝回调
+start
+    -> 第三方支付机构回调渠道;
+    if(商户号存在&&验签通过) then(NO)
+    else (YES)
+        if(支付宝交易状态为NULL \n || \n 支付状态为待付款（WAIT_BUYER_PAY）) then (YES)
+        else (NO)
+            if(支付宝状态为交易完成(TRADE_FINISHED) then (YES)
+                if(支付单存在&&金额正确&&数据表状态为PROCESSBANK) then (YES)
+                    : 更新状态为SUCCESS;
+                else (NO)
+                endif
+            else (NO)
+                if(支付宝状态为交易完成(TRADE_SUCCESS) then(YES)
+                    if(支付单存在&&金额正确&&数据表状态为PROCESSBANK) then(YES)
+                        :更新状态为SUCCESS;
+                    else (NO)
+                    endif
+                else (NO)
+                    if(支付宝状态为交易完成(TRADE_CLOSED) then(YES)
+                        if(退款) then(YES)
+                            :全额退款的关单 CLOSED;
+                        else (NO)
+                            : 超时未支付;
+                        endif
+                    else (NO)
+                    endif
+                endif
+            endif
+        endif
+    endif
+stop
+@enduml

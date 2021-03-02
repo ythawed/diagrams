@@ -1,0 +1,12 @@
+@startuml
+
+start
+   -> 支付发起支付下单请求;
+   : 初始化 INIT;
+   -> 调用第三方机构（微信/支付宝/招行);
+   if(机构返回成功) then(yes)
+   : 修改状态为银行受理中(PROCESSBANK);
+   else (no)
+   endif
+stop
+@enduml
