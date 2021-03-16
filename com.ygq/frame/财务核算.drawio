@@ -1,1 +1,133 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T03:14:38.731Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" version="14.4.8" etag="DOSAbx2W1rTGmrnrtwGO" type="github"><diagram id="rgG_V90oUR9rRPVTO_Oj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-16T07:27:43.286Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="cecw__u5DqgVI15Bh7T8" version="14.4.8" type="github">
+  <diagram id="rgG_V90oUR9rRPVTO_Oj" name="Page-1">
+    <mxGraphModel dx="946" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-2" value="支付系统&lt;br&gt;pay-core" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-3" value="清分系统&lt;br&gt;pay-clear" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-4" value="结算系统&lt;br&gt;pay-settle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-5" value="文件网关&lt;br&gt;pay-filegateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-6" value="核算系统&lt;br&gt;pay-recon" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-7" value="报表前台&lt;br&gt;finance-admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-8" value="&amp;nbsp;报表后台&lt;br&gt;data-report" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-9" value="后台管理 &lt;br&gt;pay-admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="230" width="80" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-10" value="教研&lt;br&gt;pay-education" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-11" value="订单&lt;br&gt;qpark-order" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-12" value="门店&lt;br&gt;qpark-store" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-13" value="供应链相关&lt;br&gt;qpark-pms..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-14" value="支付&lt;br&gt;finance-pay" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-15" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-16" value="数据中心&lt;br&gt;data-report" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="250" y="930" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZuGFPO7wbkRmmdk79TJ8-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="940" as="sourcePoint" />
+            <mxPoint x="90" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-19" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZuGFPO7wbkRmmdk79TJ8-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="840" as="sourcePoint" />
+            <mxPoint x="234" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-20" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZuGFPO7wbkRmmdk79TJ8-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="244" y="840" as="sourcePoint" />
+            <mxPoint x="380" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-21" value="" style="endArrow=classic;html=1;exitX=0.447;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZuGFPO7wbkRmmdk79TJ8-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254" y="850" as="sourcePoint" />
+            <mxPoint x="524" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-22" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZuGFPO7wbkRmmdk79TJ8-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="533.6399999999999" y="840.4799999999999" as="sourcePoint" />
+            <mxPoint x="670" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZuGFPO7wbkRmmdk79TJ8-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="543.6399999999999" y="850.4799999999999" as="sourcePoint" />
+            <mxPoint x="820" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-24" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="870" as="sourcePoint" />
+            <mxPoint x="820" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-25" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZuGFPO7wbkRmmdk79TJ8-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="870" as="sourcePoint" />
+            <mxPoint x="554.0000000000001" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-26" value="阿里云 DTS 数据同步" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="890" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-27" value="报表后台&lt;br&gt;data-report" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-28" value="报表前台&lt;br&gt;finance-admin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-29" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="459" y="990" as="sourcePoint" />
+            <mxPoint x="459" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-30" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="459" y="1100" as="sourcePoint" />
+            <mxPoint x="459" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-32" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1162.5" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-33" value="&lt;font style=&quot;font-size: 12px&quot;&gt;财务报表&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1140" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuGFPO7wbkRmmdk79TJ8-34" value="&lt;font style=&quot;font-size: 12px&quot;&gt;监管行报表&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1180" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
