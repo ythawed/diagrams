@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T16:14:34.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="18.0.2" etag="s06yknEDGnU6NO6mIsTp" type="github"><diagram id="_VjoMr9QsrRBWtFsvY7Q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-15T16:30:40.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="fJcJpIscglYDJdKOvd85" version="18.0.2" type="github">
+  <diagram id="_VjoMr9QsrRBWtFsvY7Q" name="Page-1">
+    <mxGraphModel dx="1720" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-4" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;direction=north;size=60;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="600" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gjfnCZv8uQwVeMxivWfG-4" source="gjfnCZv8uQwVeMxivWfG-9" target="gjfnCZv8uQwVeMxivWfG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-9" value="消息id获取&lt;br&gt;nextMessageId/chatBoxSeq" style="html=1;" vertex="1" parent="gjfnCZv8uQwVeMxivWfG-4">
+          <mxGeometry x="70" y="25" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-11" value="消息链路" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gjfnCZv8uQwVeMxivWfG-4">
+          <mxGeometry y="40" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gjfnCZv8uQwVeMxivWfG-4" source="gjfnCZv8uQwVeMxivWfG-12" target="gjfnCZv8uQwVeMxivWfG-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-12" value="消息预处理&lt;br&gt;preHandler" style="html=1;" vertex="1" parent="gjfnCZv8uQwVeMxivWfG-4">
+          <mxGeometry x="260" y="25" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-15" value="消息存储MessageStoreHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="gjfnCZv8uQwVeMxivWfG-4">
+          <mxGeometry x="430" y="22.5" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="gjfnCZv8uQwVeMxivWfG-4" source="gjfnCZv8uQwVeMxivWfG-15" target="gjfnCZv8uQwVeMxivWfG-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-7" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="20" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gjfnCZv8uQwVeMxivWfG-21" target="gjfnCZv8uQwVeMxivWfG-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-21" value="消息同步到端上&lt;br&gt;MessageSyncHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gjfnCZv8uQwVeMxivWfG-15" target="gjfnCZv8uQwVeMxivWfG-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gjfnCZv8uQwVeMxivWfG-23" target="gjfnCZv8uQwVeMxivWfG-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-23" value="push通知&lt;br&gt;MessagePushHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gjfnCZv8uQwVeMxivWfG-25" target="gjfnCZv8uQwVeMxivWfG-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-25" value="消息路由&lt;br&gt;MessageRouterHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="220" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gjfnCZv8uQwVeMxivWfG-27" target="gjfnCZv8uQwVeMxivWfG-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-27" value="消息多团队同步&lt;br&gt;MessageDataSyncHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-29" value="消息后置处理&lt;br&gt;MessageAfterHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-31" value="用户A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="30" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-32" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="40" width="20" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gjfnCZv8uQwVeMxivWfG-33" value="用户B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="40" width="50" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
