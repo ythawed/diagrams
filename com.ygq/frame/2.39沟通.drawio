@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T06:57:01.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="u40xwSMhZJhMX_YPRgRD" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-30T07:17:50.385Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="6Gj7VJvl_8ed5s-Sd3tg" version="18.0.7" type="github">
   <diagram id="2Kw0UDBsUmubdd8x-OYx" name="Page-1">
     <mxGraphModel dx="1215" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,22 +58,22 @@
         <mxCell id="W-_6HZPZvxM8ELVaEarW-21" value="2. MQTT下发全量会话（chat.proto&lt;br&gt;）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="150" y="240" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-22" value="chat.proto" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-22" value="chat.proto" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=default;strokeColor=#009900;" vertex="1" parent="1">
           <mxGeometry x="820" y="50" width="320" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-24" value="HiSingleChat    + optional int64 chatGroupId       = 15;&#xa;HiGroupChat     + optional int64 chatGroupId       = 21;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=default;" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-22">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-24" value="HiSingleChat    + optional int32 chatGroupId       = 15;&#xa;HiGroupChat     + optional int32 chatGroupId       = 21;" style="text;strokeColor=#009900;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=default;" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-22">
           <mxGeometry y="26" width="320" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-32" value="ChatProtocol.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-32" value="ChatProtocol.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=default;strokeColor=#009900;" vertex="1" parent="1">
           <mxGeometry x="820" y="140" width="320" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-33" value="编译协议文件，将协议变动，同步给各端" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=default;" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-32">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-33" value="编译协议文件，将协议变动，同步给各端" style="text;strokeColor=#009900;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=default;" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-32">
           <mxGeometry y="26" width="320" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-34" value="SingleChat.java &amp;&amp; GroupChat.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-34" value="SingleChat.java &amp;&amp; GroupChat.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=default;strokeColor=#009900;" vertex="1" parent="1">
           <mxGeometry x="820" y="220" width="320" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-35" value="+ chatGroupId，从数据库查询，再封装，&#xa;再转成mqtt协议，再publish" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=default;" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-34">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-35" value="+ chatGroupId，从数据库查询，再封装，&#xa;再转成mqtt协议，再publish" style="text;strokeColor=#009900;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=default;" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-34">
           <mxGeometry y="26" width="320" height="44" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-55" value="&lt;font color=&quot;#ff0000&quot;&gt;用户&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
@@ -85,11 +85,23 @@
         <mxCell id="W-_6HZPZvxM8ELVaEarW-64" value="/chat/syncRelation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="304" y="390" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-66" value="ChatRelationDO.java" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="820" y="357" width="160" height="52" as="geometry" />
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-66" value="ChatRelationDO.java" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="820" y="390" width="160" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-67" value="+ chatGroupId: long" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-66">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-67" value="+ chatGroupId:  int" style="text;strokeColor=#FF0000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-66">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-70" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="480" as="sourcePoint" />
+            <mxPoint x="120" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-71" value="2.&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;ChatRelationListSyncVO返回增量&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="155" y="460" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-72" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;chat_group&lt;/div&gt;&lt;div&gt;CREATE TABLE `chat_group` (&lt;/div&gt;&lt;div&gt;&amp;nbsp; `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `update_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `name` varchar(160) NOT NULL COMMENT ‘分组名称‘,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `avatar` varchar(300) NOT NULL COMMENT &#39;分组头像&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `company_id` bigint(20) unsigned DEFAULT NULL COMMENT &#39;团队id，不为空时为内部群&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `user_id` bigint(20) unsigned NOT NULL COMMENT &#39;分组所属用户id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `index` tinyint(1) NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;分组排序，0，1，2，3，4&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `delete` tinyint(3) unsigned NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;分组删除状态：0-正常, 1-已删除&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `hidden` tinyint(3) unsigned NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;分组隐藏状态：0-正常, 1-已隐藏&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; PRIMARY KEY (`id`),&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_members_sign` (`members_sign`(8)),&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_did_cid_status` (`dept_id`,`company_id`,`status`)&lt;/div&gt;&lt;div&gt;) ENGINE=InnoDB AUTO_INCREMENT=29372 DEFAULT CHARSET=utf8mb4 COMMENT=&#39;会话分组表&#39;;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="820" y="520" width="750" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
