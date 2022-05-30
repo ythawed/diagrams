@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T09:06:06.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="pBaVvaxmMYzIyuu69VeS" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-30T09:06:31.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="aclHHMv_Wbc_X_6AMyPq" version="18.0.7" type="github">
   <diagram id="2Kw0UDBsUmubdd8x-OYx" name="Page-1">
     <mxGraphModel dx="1797" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -248,8 +248,45 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-112" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;2. 排序&lt;br&gt;前端上传，分组id对应的新旧index，后端进行保存&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-112" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;2. 排序&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;前端上传，分组id对应的新旧index，后端进行保存&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="370" y="1190" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-113" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1330" width="520" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-114" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="1380" as="sourcePoint" />
+            <mxPoint x="440" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-115" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1350" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-116" value="1. 分组管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1360" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-117" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1430" as="sourcePoint" />
+            <mxPoint x="120" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-118" value="3. 多端同步开关状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1410" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-119" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1380" as="sourcePoint" />
+            <mxPoint x="440" y="1430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="1380" />
+              <mxPoint x="470" y="1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-120" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;2. 排序&lt;br&gt;前端上传，分组id对应的新旧index，后端进行保存&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1390" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
