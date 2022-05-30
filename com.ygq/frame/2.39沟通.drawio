@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T07:19:41.187Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="r4zmG6zAfGvm2t_JAjpQ" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-30T08:42:28.191Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="J6WUe1ufJ7yPv40_LSOI" version="18.0.7" type="github">
   <diagram id="2Kw0UDBsUmubdd8x-OYx" name="Page-1">
-    <mxGraphModel dx="1215" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1087" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-81" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="520" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-2" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="70" width="120" height="60" as="geometry" />
         </mxCell>
@@ -12,13 +15,13 @@
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="W-_6HZPZvxM8ELVaEarW-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="760" as="sourcePoint" />
+            <mxPoint x="120" y="1163.4285714285713" as="sourcePoint" />
             <mxPoint x="530" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="439.63" y="760.0000000000002" as="sourcePoint" />
+            <mxPoint x="440" y="1160" as="sourcePoint" />
             <mxPoint x="439.63" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -27,7 +30,7 @@
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="719.6299999999999" y="760.0000000000002" as="sourcePoint" />
+            <mxPoint x="720" y="1170" as="sourcePoint" />
             <mxPoint x="719.6299999999999" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -100,8 +103,79 @@
         <mxCell id="W-_6HZPZvxM8ELVaEarW-71" value="2.&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;ChatRelationListSyncVO返回增量&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="155" y="460" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-72" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;chat_group&lt;/div&gt;&lt;div&gt;CREATE TABLE `chat_group` (&lt;/div&gt;&lt;div&gt;&amp;nbsp; `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `update_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `name` varchar(160) NOT NULL COMMENT ‘分组名称‘,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `avatar` varchar(300) NOT NULL COMMENT &#39;分组头像&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `company_id` bigint(20) unsigned DEFAULT NULL COMMENT &#39;团队id，不为空时为内部群&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `user_id` bigint(20) unsigned NOT NULL COMMENT &#39;分组所属用户id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `index` tinyint(1) NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;分组排序，0，1，2，3，4&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `delete` tinyint(3) unsigned NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;分组删除状态：0-正常, 1-已删除&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `hidden` tinyint(3) unsigned NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;分组隐藏状态：0-正常, 1-已隐藏&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; PRIMARY KEY (`id`),&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_members_sign` (`members_sign`(8)),&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_did_cid_status` (`dept_id`,`company_id`,`status`)&lt;/div&gt;&lt;div&gt;) ENGINE=InnoDB AUTO_INCREMENT=29372 DEFAULT CHARSET=utf8mb4 COMMENT=&#39;会话分组表&#39;;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="70" width="750" height="240" as="geometry" />
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-74" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="580" as="sourcePoint" />
+            <mxPoint x="440" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-75" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="550" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-78" value="1. 打开分组开关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="560" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-79" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="630" as="sourcePoint" />
+            <mxPoint x="120" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-80" value="2. 多端同步开关状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="610" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-82" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="580" as="sourcePoint" />
+            <mxPoint x="440" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="580" />
+              <mxPoint x="470" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-87" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;根据chat_group是否有“所有会话”，&lt;br style=&quot;font-size: 10px;&quot;&gt;给前端返回，“是否第一次开启&lt;/font&gt;”。&lt;br&gt;没有就插入“所有会话”记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="430" y="580" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-88" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="730" width="520" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-89" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="780" as="sourcePoint" />
+            <mxPoint x="440" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-90" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="750" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-91" value="1. 新增分组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="190" y="760" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-92" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="830" as="sourcePoint" />
+            <mxPoint x="120" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-93" value="2. 多端同步开关状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="810" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-94" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="780" as="sourcePoint" />
+            <mxPoint x="440" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="780" />
+              <mxPoint x="470" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-95" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;1.&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="515" y="795" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-96" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;chat_group&lt;/div&gt;&lt;div&gt;CREATE TABLE `chat_group` (&lt;/div&gt;&lt;div&gt;&amp;nbsp; `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `update_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `name` varchar(160) NOT NULL COMMENT ‘分组名称‘,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `avatar` varchar(300) NOT NULL COMMENT &#39;分组头像&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `company_id` bigint(20) unsigned DEFAULT NULL COMMENT &#39;团队id，不为空时为内部群&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `user_id` bigint(20) unsigned NOT NULL COMMENT &#39;分组所属用户id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `index` tinyint(1) NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;分组排序，0，1，2，3，4&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `delete` tinyint(3) unsigned NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;分组删除状态：0-正常, 1-已删除&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `hidden` tinyint(3) unsigned NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;分组隐藏状态：0-正常, 1-已隐藏&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; PRIMARY KEY (`id`),&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_members_sign` (`members_sign`(8)),&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_did_cid_status` (`dept_id`,`company_id`,`status`)&lt;/div&gt;&lt;div&gt;) ENGINE=InnoDB AUTO_INCREMENT=29372 DEFAULT CHARSET=utf8mb4 COMMENT=&#39;会话分组表&#39;;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="820" y="530" width="750" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
