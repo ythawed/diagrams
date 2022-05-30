@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T09:00:42.534Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="of6KVrb69aT3SSDp6RRU" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-30T09:06:06.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="pBaVvaxmMYzIyuu69VeS" version="18.0.7" type="github">
   <diagram id="2Kw0UDBsUmubdd8x-OYx" name="Page-1">
     <mxGraphModel dx="1797" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -226,7 +226,7 @@
         <mxCell id="W-_6HZPZvxM8ELVaEarW-107" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="150" y="1150" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-108" value="1. 修改分组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-108" value="1. 分组管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="190" y="1160" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-109" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -248,8 +248,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-112" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;2. 解绑&lt;br&gt;将绑定该分组chat_group_id的会话，&lt;br&gt;值修改为0（所有会话）&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="405" y="1180" width="210" height="50" as="geometry" />
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-112" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;2. 排序&lt;br&gt;前端上传，分组id对应的新旧index，后端进行保存&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1190" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
