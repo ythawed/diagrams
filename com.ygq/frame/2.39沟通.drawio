@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T06:58:52.972Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="5vkcguA171RtFtVfwCrc" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-31T07:10:30.020Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="5S1RBpXFgZXqKZ2EUuhU" version="18.0.7" type="github">
   <diagram id="2Kw0UDBsUmubdd8x-OYx" name="Page-1">
-    <mxGraphModel dx="3123" dy="1254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1797" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,7 +121,7 @@
             <mxPoint x="120" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-80" value="3. 多端同步开关状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-80" value="&lt;font color=&quot;#ff0000&quot;&gt;3. 多端同步开关状态&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="180" y="610" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-82" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
@@ -158,7 +158,7 @@
             <mxPoint x="120" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-93" value="2. 多端同步开关状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-93" value="&lt;font color=&quot;#ff0000&quot;&gt;2. 多端同步开关状态&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="180" y="810" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-94" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
@@ -198,7 +198,7 @@
             <mxPoint x="120" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-102" value="3. 多端同步开关状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-102" value="&lt;font color=&quot;#ff0000&quot;&gt;3. 多端同步开关状态&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="180" y="1010" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-103" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
@@ -235,7 +235,7 @@
             <mxPoint x="120" y="1429.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-110" value="3. 多端同步开关状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-110" value="&lt;font color=&quot;#ff0000&quot;&gt;3. 多端同步开关状态&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="180" y="1410" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-111" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
@@ -272,7 +272,7 @@
             <mxPoint x="120" y="1630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-118" value="3. 多端同步开关状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-118" value="&lt;font color=&quot;#ff0000&quot;&gt;3. 多端同步开关状态&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="180" y="1610" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-119" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
@@ -289,7 +289,7 @@
           <mxGeometry x="500" y="1590" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-121" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;分组名称&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fontColor=#FF0000;strokeColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="480" y="1580" width="60" height="20" as="geometry" />
+          <mxGeometry x="480" y="1560" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#FF0000;" parent="1" source="W-_6HZPZvxM8ELVaEarW-122" target="W-_6HZPZvxM8ELVaEarW-123" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -343,8 +343,8 @@
         <mxCell id="W-_6HZPZvxM8ELVaEarW-134" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="150" y="1990" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-135" value="1. 上传当前分组id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="220" y="2000" width="110" height="20" as="geometry" />
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-135" value="1. 一键导入bot，上传当前分组id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="180" y="2000" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-136" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -525,49 +525,62 @@
         </mxCell>
         <mxCell id="xUOQ3NqQN5KeseqeKHql-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xUOQ3NqQN5KeseqeKHql-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-150" y="680" as="targetPoint" />
+            <mxPoint x="1451" y="1019" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xUOQ3NqQN5KeseqeKHql-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xUOQ3NqQN5KeseqeKHql-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-150" y="780" as="targetPoint" />
+            <mxPoint x="1451" y="1119" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xUOQ3NqQN5KeseqeKHql-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xUOQ3NqQN5KeseqeKHql-3" target="xUOQ3NqQN5KeseqeKHql-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xUOQ3NqQN5KeseqeKHql-3" value="是否第一次打开" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="590" width="100" height="60" as="geometry" />
+          <mxGeometry x="1401" y="929" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xUOQ3NqQN5KeseqeKHql-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xUOQ3NqQN5KeseqeKHql-5" target="xUOQ3NqQN5KeseqeKHql-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xUOQ3NqQN5KeseqeKHql-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
-          <mxGeometry x="-195" y="505" width="90" height="40" as="geometry" />
+          <mxGeometry x="1406" y="844" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xUOQ3NqQN5KeseqeKHql-7" value="打开开关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="515" width="60" height="20" as="geometry" />
+          <mxGeometry x="1421" y="854" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xUOQ3NqQN5KeseqeKHql-8" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="680" width="120" height="50" as="geometry" />
+          <mxGeometry x="1391" y="1019" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xUOQ3NqQN5KeseqeKHql-9" value="新建默认分组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-195" y="695" width="90" height="20" as="geometry" />
+          <mxGeometry x="1406" y="1034" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xUOQ3NqQN5KeseqeKHql-12" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-155" y="650" width="30" height="20" as="geometry" />
+          <mxGeometry x="1446" y="989" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xUOQ3NqQN5KeseqeKHql-17" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="600" width="30" height="20" as="geometry" />
+          <mxGeometry x="1351" y="939" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xUOQ3NqQN5KeseqeKHql-22" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="780" width="120" height="50" as="geometry" />
+          <mxGeometry x="1391" y="1119" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xUOQ3NqQN5KeseqeKHql-23" value="前端展示&lt;br&gt;默认分组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="790" width="60" height="30" as="geometry" />
+          <mxGeometry x="1421" y="1129" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xUOQ3NqQN5KeseqeKHql-25" value="前端展示&lt;br&gt;隐藏的旧分组" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="590" width="120" height="60" as="geometry" />
+          <mxGeometry x="1241" y="929" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xUOQ3NqQN5KeseqeKHql-38" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;一键导入bot&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fontColor=#FF0000;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1585" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xUOQ3NqQN5KeseqeKHql-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xUOQ3NqQN5KeseqeKHql-38" target="W-_6HZPZvxM8ELVaEarW-132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.9565217391305" y="1640" as="sourcePoint" />
+            <mxPoint x="349.9565217391305" y="1790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="1595" />
+              <mxPoint x="670" y="2040" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
