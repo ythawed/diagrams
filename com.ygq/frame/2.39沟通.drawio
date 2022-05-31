@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T14:04:07.318Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="AESVC74E19mR714gqu4q" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-31T03:26:21.725Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="YbRTRGaeta9zacf8Zhxz" version="18.0.7" type="github">
   <diagram id="2Kw0UDBsUmubdd8x-OYx" name="Page-1">
     <mxGraphModel dx="1878" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -343,8 +343,8 @@
         <mxCell id="W-_6HZPZvxM8ELVaEarW-134" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="150" y="1990" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-135" value="1. 一键导入bot" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="230" y="2000" width="90" height="20" as="geometry" />
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-135" value="1. 上传当前分组id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="2000" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-136" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -501,6 +501,21 @@
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-184" value="新增https://api.weizhipin.com/project/179/interface/api/306657" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-183">
           <mxGeometry y="26" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-188" value="接口改动" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;labelBackgroundColor=none;fontSize=12;strokeColor=#82b366;fillColor=#d5e8d4;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1780" width="380" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-189" value="新增https://api.weizhipin.com/project/179/interface/api/306801" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-188">
+          <mxGeometry y="26" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-191" value="接口改动" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;labelBackgroundColor=none;fontSize=12;strokeColor=#82b366;fillColor=#d5e8d4;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1980" width="380" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-192" value="新增https://api.weizhipin.com/project/179/interface/api/306837" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-191">
+          <mxGeometry y="26" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-193" value="将不在其它分组的bot，&lt;br&gt;绑定该id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2032" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
