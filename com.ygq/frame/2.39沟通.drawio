@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T03:26:21.725Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="YbRTRGaeta9zacf8Zhxz" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-31T03:33:28.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="UzMg495uAqdlRqmyl9FT" version="18.0.7" type="github">
   <diagram id="2Kw0UDBsUmubdd8x-OYx" name="Page-1">
     <mxGraphModel dx="1878" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,13 +13,13 @@
         <mxCell id="W-_6HZPZvxM8ELVaEarW-3" value="web-server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="380" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="W-_6HZPZvxM8ELVaEarW-2">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;" edge="1" parent="1" target="W-_6HZPZvxM8ELVaEarW-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="2480" as="sourcePoint" />
             <mxPoint x="530" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#FF3333;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="2490" as="sourcePoint" />
             <mxPoint x="439.63" y="130" as="targetPoint" />
@@ -28,7 +28,7 @@
         <mxCell id="W-_6HZPZvxM8ELVaEarW-8" value="chat-server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="660" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-9" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#0000FF;curved=1;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="720" y="2480" as="sourcePoint" />
             <mxPoint x="719.6299999999999" y="130" as="targetPoint" />
@@ -89,7 +89,7 @@
           <mxGeometry x="304" y="390" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-66" value="ChatRelationDO.java" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="820" y="360" width="160" height="52" as="geometry" />
+          <mxGeometry x="1220" y="360" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-67" value="+ chatGroupId:  int" style="text;strokeColor=#FF0000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-66">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -442,16 +442,16 @@
         <mxCell id="W-_6HZPZvxM8ELVaEarW-156" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="800" y="2370" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-157" value="GroupAtMessageVO" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;labelBackgroundColor=none;fontSize=10;fontColor=#000000;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="820" y="2210" width="160" height="52" as="geometry" />
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-157" value="GroupAtMessageVO" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontSize=10;fontColor=#000000;strokeColor=#FF0000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="2200" width="160" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-158" value="+ chat_group_id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-157">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-158" value="+ chat_group_id: int" style="text;strokeColor=#FF0000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-157">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-163" value="接口改动" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;labelBackgroundColor=none;fontSize=12;strokeColor=#82b366;fillColor=#d5e8d4;spacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="360" width="370" height="52" as="geometry" />
+          <mxGeometry x="820" y="360" width="370" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-164" value="https://api.weizhipin.com/project/179/interface/api/23988" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-163">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-164" value="更新 https://api.weizhipin.com/project/179/interface/api/23988" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-163">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-167" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;dashed=1;fillColor=none;" vertex="1" parent="1">
@@ -467,55 +467,61 @@
           <mxGeometry y="26" width="190" height="36" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-173" value="接口改动" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;labelBackgroundColor=none;fontSize=12;strokeColor=#82b366;fillColor=#d5e8d4;spacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="530" width="370" height="52" as="geometry" />
+          <mxGeometry x="820" y="530" width="370" height="52" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-174" value="新增 https://api.weizhipin.com/project/179/interface/api/306558" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-173">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-175" value="接口改动" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;labelBackgroundColor=none;fontSize=12;strokeColor=#82b366;fillColor=#d5e8d4;spacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="730" width="370" height="52" as="geometry" />
+          <mxGeometry x="820" y="730" width="370" height="52" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-176" value="新增https://api.weizhipin.com/project/179/interface/api/306576" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-175">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-177" value="接口改动" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;labelBackgroundColor=none;fontSize=12;strokeColor=#82b366;fillColor=#d5e8d4;spacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="930" width="370" height="52" as="geometry" />
+          <mxGeometry x="820" y="930" width="370" height="52" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-178" value="新增https://api.weizhipin.com/project/179/interface/api/306639" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-177">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-179" value="接口改动" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;labelBackgroundColor=none;fontSize=12;strokeColor=#82b366;fillColor=#d5e8d4;spacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="1140" width="380" height="52" as="geometry" />
+          <mxGeometry x="820" y="1140" width="380" height="52" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-180" value="新增https://api.weizhipin.com/project/179/interface/api/306648" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-179">
           <mxGeometry y="26" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-181" value="接口改动" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;labelBackgroundColor=none;fontSize=12;strokeColor=#82b366;fillColor=#d5e8d4;spacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="1330" width="380" height="52" as="geometry" />
+          <mxGeometry x="820" y="1330" width="380" height="52" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-182" value="新增https://api.weizhipin.com/project/179/interface/api/306657" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-181">
           <mxGeometry y="26" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-183" value="接口改动" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;labelBackgroundColor=none;fontSize=12;strokeColor=#82b366;fillColor=#d5e8d4;spacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="1530" width="380" height="52" as="geometry" />
+          <mxGeometry x="820" y="1530" width="380" height="52" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-184" value="新增https://api.weizhipin.com/project/179/interface/api/306657" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-183">
           <mxGeometry y="26" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-188" value="接口改动" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;labelBackgroundColor=none;fontSize=12;strokeColor=#82b366;fillColor=#d5e8d4;spacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="1780" width="380" height="52" as="geometry" />
+          <mxGeometry x="820" y="1780" width="380" height="52" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-189" value="新增https://api.weizhipin.com/project/179/interface/api/306801" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-188">
           <mxGeometry y="26" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-191" value="接口改动" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;labelBackgroundColor=none;fontSize=12;strokeColor=#82b366;fillColor=#d5e8d4;spacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="1980" width="380" height="52" as="geometry" />
+          <mxGeometry x="820" y="1980" width="380" height="52" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-192" value="新增https://api.weizhipin.com/project/179/interface/api/306837" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-191">
           <mxGeometry y="26" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="W-_6HZPZvxM8ELVaEarW-193" value="将不在其它分组的bot，&lt;br&gt;绑定该id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="470" y="2032" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-195" value="接口改动" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;labelBackgroundColor=none;fontSize=12;strokeColor=#82b366;fillColor=#d5e8d4;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="820" y="2200" width="380" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-196" value="新增https://api.weizhipin.com/project/179/interface/api/306837" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-195">
+          <mxGeometry y="26" width="380" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
