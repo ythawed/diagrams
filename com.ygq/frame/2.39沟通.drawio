@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T03:42:29.328Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="CGe_ahjypQkK-0Buih7V" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-31T03:44:28.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="jnJYrfBvvwSXYvMap3jK" version="18.0.7" type="github">
   <diagram id="2Kw0UDBsUmubdd8x-OYx" name="Page-1">
     <mxGraphModel dx="1878" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -520,7 +520,7 @@
         <mxCell id="W-_6HZPZvxM8ELVaEarW-195" value="接口改动" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;labelBackgroundColor=none;fontSize=12;strokeColor=#82b366;fillColor=#d5e8d4;spacing=2;" vertex="1" parent="1">
           <mxGeometry x="820" y="2200" width="380" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="W-_6HZPZvxM8ELVaEarW-196" value="新增https://api.weizhipin.com/project/179/interface/api/306837" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-195">
+        <mxCell id="W-_6HZPZvxM8ELVaEarW-196" value="更新 https://api.weizhipin.com/project/179/interface/api/60557" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;spacing=2;fontStyle=1" vertex="1" parent="W-_6HZPZvxM8ELVaEarW-195">
           <mxGeometry y="26" width="380" height="26" as="geometry" />
         </mxCell>
       </root>
