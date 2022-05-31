@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T07:12:04.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="CnmeIkAVrZnmoQr257Jy" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-31T07:44:05.424Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="nBUUNv2QD8uVxZwdDG9A" version="18.0.7" type="github">
   <diagram id="2Kw0UDBsUmubdd8x-OYx" name="Page-1">
-    <mxGraphModel dx="1797" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1051" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -581,6 +581,12 @@
               <mxPoint x="670" y="2040" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xUOQ3NqQN5KeseqeKHql-40" value="默认为开" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="230" y="310" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xUOQ3NqQN5KeseqeKHql-41" value="不需要全量，给我传指定的cgroupId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="185" y="2350" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
