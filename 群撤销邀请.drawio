@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T14:10:09.100Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="LE-klPoMC41m82lGSD7Z" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-28T14:12:04.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Qw8PMXszg7oJrXiUe9wK" version="20.0.1" type="github">
   <diagram id="t0ZL-oE_CtfBGrX07hep" name="Page-1">
     <mxGraphModel dx="2480" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JgvuabAU2myaKvdRI82M-28" value="&lt;font color=&quot;#000000&quot;&gt;邀请用户入群&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#CC0000;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="328" width="120" height="66" as="geometry" />
+          <mxGeometry x="-60" y="328" width="120" height="66" as="geometry" />
         </mxCell>
         <mxCell id="JgvuabAU2myaKvdRI82M-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=2;" edge="1" parent="1" source="JgvuabAU2myaKvdRI82M-31" target="JgvuabAU2myaKvdRI82M-35">
           <mxGeometry relative="1" as="geometry" />
@@ -95,10 +95,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JgvuabAU2myaKvdRI82M-31" value="撤销邀请" style="rhombus;whiteSpace=wrap;html=1;fontColor=#CC0000;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="473" width="80" height="80" as="geometry" />
+          <mxGeometry x="-150" y="510" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JgvuabAU2myaKvdRI82M-35" value="过期" style="rhombus;whiteSpace=wrap;html=1;fontColor=#CC0000;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="500" width="80" height="80" as="geometry" />
+          <mxGeometry y="510" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JgvuabAU2myaKvdRI82M-37" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-60" y="490" width="20" height="20" as="geometry" />
@@ -106,11 +106,11 @@
         <mxCell id="JgvuabAU2myaKvdRI82M-38" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-100" y="580" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="JgvuabAU2myaKvdRI82M-40" value="踢人" style="whiteSpace=wrap;html=1;fontColor=#CC0000;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="690" width="120" height="60" as="geometry" />
+        <mxCell id="JgvuabAU2myaKvdRI82M-40" value="撤销+踢人" style="whiteSpace=wrap;html=1;fontColor=#CC0000;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="695" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JgvuabAU2myaKvdRI82M-43" value="修改灰条消息，&lt;br&gt;关闭&quot;撤销邀请&quot;入口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="650" y="540" width="120" height="30" as="geometry" />
+        <mxCell id="JgvuabAU2myaKvdRI82M-43" value="&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;1. 修改灰条消息，关闭&quot;撤销邀请&quot;入口&lt;br&gt;2. 发送同步，通知客户端更新灰条消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="540" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JgvuabAU2myaKvdRI82M-44" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -124,11 +124,11 @@
             <mxPoint x="636" y="695" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JgvuabAU2myaKvdRI82M-46" value="修改灰条消息，&lt;br&gt;关闭&quot;撤销邀请&quot;入口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="650" y="705" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="JgvuabAU2myaKvdRI82M-47" value="踢人" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="370" y="755" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JgvuabAU2myaKvdRI82M-48" value="&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;1. 修改灰条消息，关闭&quot;撤销邀请&quot;入口&lt;br&gt;2. 发送同步，通知客户端更新灰条消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="705" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
