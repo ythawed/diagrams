@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T07:26:02.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Y3rj44EC2Hh37jmTgE8X" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-25T07:27:59.033Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="yE5NQIRA6s89eMWJxlFU" version="20.2.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="3025" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="3077" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -624,7 +624,7 @@
         <mxCell id="jeUyCbiL_KkdChuT7cBO-84" value="分享者" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=none;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1175" y="1097.5" width="100" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="ev_x3NNssNZbfUvpJ_8I-1" value="OKR 提醒表&lt;br&gt;_____&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;okr_push&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="ev_x3NNssNZbfUvpJ_8I-1" value="OKR 提醒表&lt;br&gt;_____&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;okr_push&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-590" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ev_x3NNssNZbfUvpJ_8I-3" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=default;shape=connector;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ev_x3NNssNZbfUvpJ_8I-1" target="ev_x3NNssNZbfUvpJ_8I-10">
@@ -685,7 +685,7 @@
           <mxGeometry x="-420" y="1090" width="100" height="55" as="geometry" />
         </mxCell>
         <mxCell id="ev_x3NNssNZbfUvpJ_8I-17" value="进度或目标变化" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="-577.5" y="1060" width="95" height="50" as="geometry" />
+          <mxGeometry x="-450" y="885" width="95" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ev_x3NNssNZbfUvpJ_8I-18" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=default;shape=connector;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmKaakxkwhOTD4_wNAfQ-19" target="ev_x3NNssNZbfUvpJ_8I-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -701,6 +701,48 @@
         </mxCell>
         <mxCell id="ev_x3NNssNZbfUvpJ_8I-20" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#CC0000;" vertex="1" parent="1">
           <mxGeometry x="-225" y="335" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ev_x3NNssNZbfUvpJ_8I-21" value="权限组分享表&lt;br&gt;_____&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;okr_share&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ev_x3NNssNZbfUvpJ_8I-22" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=default;shape=connector;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ev_x3NNssNZbfUvpJ_8I-21" target="ev_x3NNssNZbfUvpJ_8I-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-720" y="1122.5" as="sourcePoint" />
+            <mxPoint x="-599.9999999999977" y="937.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ev_x3NNssNZbfUvpJ_8I-23" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=default;shape=connector;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ev_x3NNssNZbfUvpJ_8I-21" target="ev_x3NNssNZbfUvpJ_8I-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-650" y="1132.5" as="sourcePoint" />
+            <mxPoint x="-799.9999999999959" y="1017.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ev_x3NNssNZbfUvpJ_8I-24" value="okr_id" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="920" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ev_x3NNssNZbfUvpJ_8I-25" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=default;shape=connector;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ev_x3NNssNZbfUvpJ_8I-21" target="ev_x3NNssNZbfUvpJ_8I-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-650.0000000000002" y="970" as="sourcePoint" />
+            <mxPoint x="-599.9999999999977" y="1087.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ev_x3NNssNZbfUvpJ_8I-26" value="进度值" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="1130" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ev_x3NNssNZbfUvpJ_8I-27" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=default;shape=connector;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ev_x3NNssNZbfUvpJ_8I-21" target="ev_x3NNssNZbfUvpJ_8I-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-640.0000000000002" y="1110" as="sourcePoint" />
+            <mxPoint x="-599.9999999999977" y="1077.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ev_x3NNssNZbfUvpJ_8I-28" value="进度类型：&lt;br&gt;主进度/kr进度" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="1060" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ev_x3NNssNZbfUvpJ_8I-29" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="995" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ev_x3NNssNZbfUvpJ_8I-30" value="操作者 id" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="995" width="100" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
